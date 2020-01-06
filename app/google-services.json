@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4300307390",
+    "firebase_url": "https://truthordare-5bd1a.firebaseio.com",
+    "project_id": "truthordare-5bd1a",
+    "storage_bucket": "truthordare-5bd1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4300307390:android:82c11f3349cfbd8b",
+        "android_client_info": {
+          "package_name": "com.example.truth_or_dare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4300307390-lsv8g1g8o177e8s4vh1jkpseda0mop3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.truth_or_dare",
+            "certificate_hash": "7f9dd075920e4f187db66816dcba3b7472ec2684"
+          }
+        },
+        {
+          "client_id": "4300307390-36sobqfh4kb93g8q0u4g7sjchdrsokrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV75do1eMZ9ASrRZtfmFGI55Ut1KZ8vQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4300307390-36sobqfh4kb93g8q0u4g7sjchdrsokrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

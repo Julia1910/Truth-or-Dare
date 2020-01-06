@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Правда чи Дія</string>
+    <string name="hello_world">Привіт, світ!</string>
+    <string name="hello">Привіт!</string>
+    <string name="todo">TODO</string>
+    <string name="btn_cont">Button</string>
+</resources>

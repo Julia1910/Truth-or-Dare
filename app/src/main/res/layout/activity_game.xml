@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img5685"
+    tools:context=".Game"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:layout_marginBottom="115dp"
+        android:paddingLeft="40dp"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toTopOf="@+id/btn_truth"
+        app:layout_constraintEnd_toStartOf="@+id/btn_close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="46dp"
+        android:paddingLeft="40dp"
+        android:text="Твій хід!"
+        android:textSize="23sp"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toTopOf="@+id/questionView"
+        app:layout_constraintEnd_toStartOf="@+id/btn_previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionView"
+        android:layout_width="343dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/table"
+        android:padding="50dp"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btn_truth"
+        android:layout_width="83dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="430dp"
+        android:background="@drawable/truth"
+        android:text="Правда"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/questionView"
+        app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+    <Button
+        android:id="@+id/btn_dare"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:background="@drawable/dare"
+        android:text="Дія"
+        app:layout_constraintBottom_toTopOf="@+id/btn_done"
+        app:layout_constraintStart_toEndOf="@+id/btn_done" />
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/done"
+        android:text="Виконано"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/playersView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_previous"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/arrow"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/questionView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/a8897b349d"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btn_previous"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playersView"
+        android:layout_width="186dp"
+        android:layout_height="240dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_done" />
+
+</android.support.constraint.ConstraintLayout>
